@@ -10,8 +10,8 @@ const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [], cookie = '', message;
 const JD_API_HOST = 'https://api.m.jd.com/api?appid=interCenter_shopSign';
 
-let activityId=''
-let vender=''
+let activityId='554849'
+let vender='10303601'
 let num=0
 let shopname=''
 const token=[
