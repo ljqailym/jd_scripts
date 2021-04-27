@@ -2,7 +2,7 @@
 只能用一天。需每天寻找直播抓包
 1 8-23 * * * lxk0301_live_redrain.js
 */
-const $ = new Env('整点京豆雨');
+const $ = new Env('owb京豆雨');
 let allMessage = '';
 let bodyList = {
   '20': {
@@ -11,30 +11,30 @@ let bodyList = {
   }
 }
 let ids = {
-  '0': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '1': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '2': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '3': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '4': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '5': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '6': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '7': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '8': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '9': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '10': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '11': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '12': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '13': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '14': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '15': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '16': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '17': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '18': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '19': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '20': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '21': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '22': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '23': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2'
+  '0': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '1': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '2': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '3': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '4': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '5': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '6': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '7': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '8': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '9': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '10': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '11': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '12': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '13': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '14': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '15': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '16': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '17': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '18': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '19': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '20': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '21': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '22': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
+  '23': 'RRA4RhWMc159kA62qLbaEa88evE7owb'
 
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
