@@ -1,4 +1,4 @@
-/*
+8/*
 只能用一天。需每天寻找直播抓包
 1 8-23 * * * lxk0301_live_redrain.js
 */
@@ -11,30 +11,30 @@ let bodyList = {
   }
 }
 let ids = {
-  '0': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '1': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '2': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '3': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '4': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '5': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '6': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '7': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '8': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '9': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '10': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '11': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '12': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '13': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '14': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '15': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '16': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '17': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '18': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '19': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '20': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '21': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '22': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2',
-  '23': 'RRA2cUocg5uYEyuKpWNdh4qE4NW1bN2'
+  '0': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '1': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '2': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '3': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '4': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '5': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '6': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '7': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '8': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '9': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '10': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '11': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '12': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '13': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '14': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '15': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '16': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '17': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '18': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '19': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '20': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '21': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '22': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM',
+  '23': 'RRA3mYmDhvzgxdpAJuscqHt32VNDqCM'
 
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
