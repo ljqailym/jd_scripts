@@ -1,8 +1,8 @@
 #!name=Crawl JD ID
-#!desc=组队
+#!desc=分享
 
 [Script]
-组队 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=jComExchange,requires-body=1,max-size=0,script-path=get_gfjd_id.js
+分享 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=jComExchange,requires-body=1,max-size=0,script-path=get_share_id.js
 
 [MITM]
 hostname = %APPEND% shopmember.m.jd.com, wq.jd.com, api.m.jd.com
