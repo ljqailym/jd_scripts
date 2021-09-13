@@ -1,0 +1,8 @@
+#!name=Crawl JD ID
+#!desc=转盘
+
+[Script]
+转盘 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=jComExchange,requires-body=1,max-size=0,script-path=get_wxDraw_id.js
+
+[MITM]
+hostname = %APPEND% shopmember.m.jd.com, wq.jd.com, api.m.jd.com
