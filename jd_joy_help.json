@@ -1,0 +1,5 @@
+[rewrite_local]
+^https:\/\/draw\.jdfcloud\.com\/\/common\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/common\/pet\/helpFriend\?friendPin url script-request-header jd_joy_help.js
+
+[MITM]
+hostname = draw.jdfcloud.com
