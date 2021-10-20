@@ -1,8 +1,8 @@
 #!name=Crawl JD ID
-#!desc=购物车
+#!desc=加购有礼
 
 [Script]
-购物车 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=jComExchange,requires-body=1,max-size=0,script-path=get_addCart_id.js
+加购有礼 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=jComExchange,requires-body=1,max-size=0,script-path=get_addCart_id.js
 
 [MITM]
 hostname = %APPEND% shopmember.m.jd.com, wq.jd.com, api.m.jd.com
