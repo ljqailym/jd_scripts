@@ -2,7 +2,7 @@
 只能用一天。需每天寻找直播抓包
 1 8-23 * * * lxk0301_live_redrain.js
 */
-const $ = new Env('整点京豆雨');
+const $ = new Env('LRC整点京豆雨');
 let allMessage = '';
 let bodyList = {
   '20': {
