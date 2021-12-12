@@ -1,5 +1,5 @@
 {
- "name": "JiaTeLin task gallery",
+ "name": "🔫蓝火加特林🔫哒哒哒哒哒🔫",
  "description": "https://github.com/ljqailym/jd_scripts",
  "task": [
     "0 0 0 * * * https://raw.githubusercontent.com/ljqailym/jd_scripts/master/dpqd.js, tag=当天签到❶, img-url=https://raw.githubusercontent.com/ljqailym/jd_scripts/master/icon/fenqian.png, enabled=true",
