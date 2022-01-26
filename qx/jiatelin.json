@@ -17,7 +17,8 @@
     "0 0-23 * * * https://raw.githubusercontent.com/ljqailym/JD/main/jd_redman_owb.js, tag=owb红包雨, img-url=https://raw.githubusercontent.com/ljqailym/jd_scripts/master/icon/owb.png, enabled=true",
     "0 0-23 * * * https://raw.githubusercontent.com/ljqailym/JD/main/jd_redman_ptn.js, tag=PTN红包雨, img-url=https://raw.githubusercontent.com/ljqailym/jd_scripts/master/icon/PTN.png, enabled=true",
     "0 0-23 * * * https://raw.githubusercontent.com/ljqailym/JD/main/jd_redman_qcm.js, tag=qCM红包雨, img-url=https://raw.githubusercontent.com/ljqailym/jd_scripts/master/icon/qCM.png, enabled=true",
-    "30 20-23 * * * https://raw.githubusercontent.com/ljqailym/JD/main/jd_redrain_half.js, tag=半点红包雨, img-url=https://raw.githubusercontent.com/ljqailym/jd_scripts/master/icon/bandian.png, enabled=true",
-    "0 0-23 * * * https://raw.githubusercontent.com/ljqailym/JD/main/jd_redman_S8e.js, tag=S8e红包雨, img-url=https://raw.githubusercontent.com/ljqailym/jd_scripts/master/icon/LRC.png, enabled=true"
+    "0 0-23 * * * https://raw.githubusercontent.com/ljqailym/JD/main/jd_redman_S8e.js, tag=S8e红包雨, img-url=https://raw.githubusercontent.com/ljqailym/jd_scripts/master/icon/LRC.png, enabled=true",
+    "30 20-23 * * * https://raw.githubusercontent.com/ljqailym/JD/main/jd_redrain_half.js, tag=半点红包雨, img-url=https://raw.githubusercontent.com/ljqailym/jd_scripts/master/icon/bandian.png, enabled=true"
+
  ]
 }
